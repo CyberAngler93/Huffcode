@@ -18,6 +18,7 @@
 
 #include "huffcode.hpp"  // for class HuffCode declaration
 
+
 void HuffCode::setWeights(const std::unordered_map<char, int> & the_weights)
 {
     auto cmp = [&](const Node & lhs, const Node & rhs) {return lhs._weight > rhs._weight;};
@@ -81,6 +82,7 @@ std::string HuffCode::decode(const std::string & code_str) const
     }
     return os.str();
 }
+
 
 void HuffCode::codes_map(Node & node, const std::string & code) {
     if (node._weight > 0) {
