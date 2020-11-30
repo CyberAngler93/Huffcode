@@ -19,7 +19,6 @@
 #include "huffcode.hpp"  // for class HuffCode declaration
 #include <string>
 #include <unordered_map>
-#include <iostream>
 
 void HuffCode::setWeights(const std::unordered_map<char, int> & the_weights)
 {
