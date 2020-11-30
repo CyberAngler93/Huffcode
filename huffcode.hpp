@@ -1,7 +1,7 @@
 // huffcode.hpp
 // Created on 11/29/20
 // Matt Perry
-// Last Modified on 11/29/20
+// Last Modified on 11/30/20
 // For CS 411 Fall 2020
 // Header file for class HuffCode for HW6
 
