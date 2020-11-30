@@ -7,14 +7,12 @@
 
 #ifndef HUFFCODE_HUFFCODE_HPP
 #define HUFFCODE_HUFFCODE_HPP
-#include <string>
-#include <unordered_map>
-#include <memory>
 #include <sstream>
 #include <queue>
 #include <vector>
-
-
+#include <string>
+#include <unordered_map>
+#include <memory>
 
 struct Node {
     Node() {}

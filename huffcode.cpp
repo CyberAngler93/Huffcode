@@ -17,8 +17,6 @@
 // For CS 411 Fall 2020
 
 #include "huffcode.hpp"  // for class HuffCode declaration
-#include <string>
-#include <unordered_map>
 
 void HuffCode::setWeights(const std::unordered_map<char, int> & the_weights)
 {
